@@ -1,0 +1,8 @@
+auto:      true
+server:    true
+pygments:  true
+permalink: /blog/:categories/:title.html
+extended: ":EXTENDED:"
+exclude:
+- CNAME
+
