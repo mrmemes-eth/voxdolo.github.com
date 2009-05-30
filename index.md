@@ -1,8 +1,10 @@
 ---
-title: The Rhythm is Gonna Getcha
+title: The rhythm is gonna get ya!
 layout: blag
 
 ---
+
+# {{ page.title }}
 
 {% for post in site.posts limit:1 %}
   <div id='latest'>
