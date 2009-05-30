@@ -1,0 +1,7 @@
+body{
+  font-family:"georgia", sans-serif;
+}
+body>h1{
+  text-align:center;
+  font-size:1.5em;
+}
