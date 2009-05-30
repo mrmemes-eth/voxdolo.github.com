@@ -9,7 +9,11 @@
         font-size:1.5em;
       }
     </style>
-    <title>Vox Dolo - {{ page.title }}</title>
+    {% if page.title %}
+    <title>vox dolo dot me | {{ page.title }}</title>
+    {% else %}
+    <title>vox dolo dot me</title>
+    {% endif %}
   </head>
   <body>
     <h1>{{ page.title }}!</h1>
