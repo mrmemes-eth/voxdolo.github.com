@@ -1,6 +1,7 @@
 ---
 title: (re-)Introduction
 layout: post
+permalink: /blog/:title.html
 
 ---
 
