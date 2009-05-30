@@ -17,7 +17,11 @@
     <title>vox dolo dot me</title>
     {% endif %}
   </head>
+  {% if page.body_id %}
+  <body id='{{ page.body_id }}'>
+  {% else %}
   <body>
+  {% endif %}
     {{ content }}
   </body>
 </html>
