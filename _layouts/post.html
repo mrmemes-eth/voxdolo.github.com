@@ -7,6 +7,11 @@ body_id: post
 <div id='when'>{{ page.date | date:"%B %d, %Y" }}</div>
 <div id='what'>
   {{ content }}
+  <div id="disqus_thread"></div>
+  <script type="text/javascript" src="http://disqus.com/forums/voxdolodotme/embed.js"></script>
+  <noscript>
+    <a href="http://voxdolodotme.disqus.com/?url=ref">View the discussion thread.</a>
+  </noscript>
 </div>
 
 <p><a href='/'>Home</a></p> 
