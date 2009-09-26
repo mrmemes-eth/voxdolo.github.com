@@ -1,10 +1,9 @@
 ---
-title: The rhythm is gonna get ya!
 layout: blag
 
 ---
 
-# {{ page.title }}
+# blog dot voxdolo dot me
 
 {% for post in site.posts limit:1 %}
   <div id='latest'>
