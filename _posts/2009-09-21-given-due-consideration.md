@@ -1,6 +1,9 @@
 ---
 title: Given Due Consideration
 layout: post
+excerpt: |-
+  Using Webrat and Rspec for integration testing, with some slick syntactic
+  sugar to sweeten the deal.
 
 ---
 
