@@ -3,7 +3,7 @@ layout: blag
 
 ---
 
-# blog dot voxdolo dot me
+# blog dot vox dolo dot me
 
 {% for post in site.posts limit:1 %}
   <div id='latest'>
