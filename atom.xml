@@ -4,11 +4,11 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Vox Dolo</title>
- <link href="http://voxdolo.me/atom.xml" rel="self"/>
- <link href="http://voxdolo.me/"/>
+ <title>blog dot vox dolo dot me</title>
+ <link href="http://blog.voxdolo.me/atom.xml" rel="self"/>
+ <link href="http://blog.voxdolo.me/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://voxdolo.me</id>
+ <id>http://blog.voxdolo.me</id>
  <author>
    <name>Stephen Caudill</name>
    <email>voxdolo@me.com</email>
@@ -17,9 +17,9 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://voxdolo.me{{ post.url }}"/>
+   <link href="http://blog.voxdolo.me{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://voxdolo.me{{ post.id }}</id>
+   <id>http://blog.voxdolo.me{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
