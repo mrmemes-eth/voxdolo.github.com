@@ -87,3 +87,4 @@ number of ways you can help do so:
 [h]: http://www.hashrocket.com/
 [cg]: http://www.coreygrusden.com/
 [tr]: http://www.pivotaltracker.com/projects/11740
+<!-- #hashrocket -->
