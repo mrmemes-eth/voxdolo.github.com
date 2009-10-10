@@ -10,7 +10,7 @@ layout: blag
     <h2><a href='{{ post.url }}'>{{ post.title }}</a></h2>
     <div id='when'>{{ post.date | date:"%B %d, %Y" }}</div>
     <div id='what'>
-      {{ post.excerpt | textilize }}
+      {{ post.excerpt }}
     </div>
     <p id='actions'>
       <a href='{{ post.url }}#disqus_thread'>comments</a>

@@ -2,8 +2,8 @@
 title: You Say Tomato
 layout: post
 excerpt: |-
-  Introducing "tomatoi.st":http://tomatoi.st, a
-  "Pomodoro":http://www.pomodorotechnique.com/ timer.
+  Introducing <a href="http://tomatoi.st">tomatoi.st</a>, a
+  <a href="http://www.pomodorotechnique.com/">Pomodoro</a> timer.
 
 ---
 
