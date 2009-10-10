@@ -78,6 +78,20 @@ number of ways you can help do so:
 * peruse and/or add to our [tracker project][tr]
 * or make a request below in the comments
 
+### Shout Outs
+
+A number of people have contributed to making this application what it is and
+I'd like take a second to thank them all.
+
+* [Sandro Turriate][st]: for adding server side polling to keep multiple people
+  watching the same timer in sync as new timers are started.
+* [Wes Gibbs][wg] and [Les Hill][lh]: for adding timer countdown in the title
+  bar (one of my favorite features).
+* [Corey Haines][ch]: for his general good will toward the app and for helping
+  to spread the word about it.
+* [Andrew Maier][am]: for taking the app from plain to fantastic! His design is
+  what made the official release a possiblity.
+
 [t]: http://tomatoi.st/
 [p]: http://www.pomodorotechnique.com/
 [d]: http://github.com/voxdolo/ding
@@ -85,6 +99,11 @@ number of ways you can help do so:
 [i]: http://github.com/voxdolo/ding/issues
 [f]: http://fluidapp.com/
 [h]: http://www.hashrocket.com/
-[cg]: http://www.coreygrusden.com/
 [tr]: http://www.pivotaltracker.com/projects/11740
+[cg]: http://www.coreygrusden.com/
+[st]: http://turriate.com/
+[wg]: http://twitter.com/wesgibbs
+[lh]: http://blog.leshill.org/
+[ch]: http://www.coreyhaines.com/
+[am]: http://www.uxbooth.com/author/andrewmaier/
 <!-- #hashrocket -->
