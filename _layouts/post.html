@@ -3,8 +3,10 @@ layout: blag
 body_id: post
 
 ---
-<h1>{{ page.title }}</h1>
-<div class='when'>{{ page.date | date:"%B %d, %Y" }}</div>
+<div id='header'>
+  <h1>{{ page.title }}</h1>
+  <div class='when'><span>{{ page.date | date:"%B %d, %Y" }}</span></div>
+</div>
 <div class='what'>
   {{ content }}
   <div id="disqus_thread"></div>

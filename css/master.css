@@ -31,11 +31,14 @@ div.sitewidth{
   margin-bottom: 2em;
 }
 
+#home h1{
+  margin: 0;
+}
 #home h2{
   font-size: 18px;
   font-weight: normal;
   text-transform: uppercase;
-  border-bottom: 3px double;
+  border-bottom: 3px double #666;
   color: #313131;
 }
 #home h3{
@@ -68,7 +71,31 @@ div.sitewidth{
   margin-left: .5em;
 }
 
-#post .when{
-  border-bottom: 3px double;
+#post #header{
+  border-bottom: 3px double #666;
+}
+#post #header:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+#post #header h1{
+  float: left;
+  margin: 12px 0 2px;
+}
+
+#post #header .when{
   text-transform: uppercase;
+  line-height: 50px;
+}
+#post #header .when span{
+  margin-top: 16px;
+  height: 12px;
+  float: right;
+}
+
+#disqus_thread{
+  border-top: 3px double #666;
 }
