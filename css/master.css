@@ -16,9 +16,10 @@ h2{ font-size: 24px; }
 h3{ font-size: 20px; }
 
 div.sitewidth{
-  width: 720px;
+  width: 780px;
   margin: 0 auto;
 }
+
 .when{
   font-family: "Times New Roman",Times,Georgia,serif;
   font-size: 13px;
@@ -47,16 +48,14 @@ div.sitewidth{
 
 #home .what{
   margin: .3em 0 1em;
-
 }
-#recent{
-  width: 450px;
+#home #recent{
+  width: 460px;
   float: left;
 }
-
-#archive{
+#home #archive{
   margin-left: 20px;
-  width: 250px;
+  width: 240px;
   float: left;
 }
 
