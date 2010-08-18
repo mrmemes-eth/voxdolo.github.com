@@ -3,6 +3,19 @@ body{
   font-size: 14px;
 }
 
+blockquote{
+  background:url('/img/blockquote.png') 5 center no-repeat;
+  padding-top:.25em;
+  padding-left:55px;
+  border: 1px solid #ccc;
+  border-left: 6px solid #aaa;
+  min-height: 45px;
+}
+blockquote p{
+  color: #666;
+  font: italic 1.5em "Times New Roman", Times, Georgia, serif;
+}
+
 h1,h2,h3,h4,h5,h6{
   font-family: "Times New Roman", Times, Georgia, serif;
   font-weight: normal;
