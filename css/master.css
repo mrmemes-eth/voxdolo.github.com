@@ -28,6 +28,11 @@ h1{
 h2{ font-size: 24px; }
 h3{ font-size: 20px; }
 
+q{
+  color: #666;
+  font: italic 1.2em "Times New Roman", Times, Georgia, serif;
+}
+
 div.sitewidth{
   width: 780px;
   margin: 0 auto;
