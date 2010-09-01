@@ -38,6 +38,12 @@ div.sitewidth{
   margin: 0 auto;
 }
 
+div.highlight{
+  border:1px solid #ccc;
+  background: #fcfcfc;
+  margin:0.5em 3em;
+}
+
 .when{
   font-family: "Times New Roman",Times,Georgia,serif;
   font-size: 13px;
