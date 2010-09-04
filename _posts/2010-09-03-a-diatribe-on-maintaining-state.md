@@ -114,7 +114,7 @@ instance variable. It becomes a detail of the implementation. Additionally,
 we've moved the responsibility for cleaning up the excess whitespace in the
 message body into the setter.
 
-Now that we've declared an interface, it becomes significantly easier make
+Now that we've declared an interface, it becomes significantly easier to make
 substantial refactors, such as upgrading your state maintenance to allow for
 persistence:
 
@@ -239,7 +239,7 @@ Now let's see what that might look like when declaring an interface:
 
 In the first example, you end up with some some incidental coupling in the
 initializer. It takes on the responsibility for assigning internal attributes,
-manipulating them where necessary as well as initializing a persistent
+manipulating them where necessary, as well as initializing a persistent
 reference to the cache itself. Additionally, there's no ability to manipulate
 the state of an instantiated object, so another object interacting with an
 instance of `Message` wouldn't be able to change the value of its `@body`.
