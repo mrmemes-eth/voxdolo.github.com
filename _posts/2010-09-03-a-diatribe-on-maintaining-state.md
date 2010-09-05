@@ -217,7 +217,7 @@ Now let's see what that might look like when declaring an interface:
     end
 
     def body=(body)
-      self.body = body.squeeze(' ').strip
+      @body = body.squeeze(' ').strip
     end
 
     def to_html
