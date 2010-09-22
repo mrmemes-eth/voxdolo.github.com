@@ -75,14 +75,14 @@ this:
 {% highlight bash %}
   Host tunnels
     Hostname 0.0.0.0 # this should be an externally routable address
-    Port 7676
-    User dev
+    User your_user
 {% endhighlight %}
 
 Now here's the magic:
 
 {% highlight bash %}
   Host *.hashrocket #*
+    User your_user
     ProxyCommand ssh -ax tunnels nc `echo %h|sed -e 's/\.hashrocket$/.local/'` %p 2>/dev/null
 {% endhighlight %}
 
@@ -96,7 +96,7 @@ use netcat to echo the given command to `fry.local`.
 Which brings us to the actual forwarding command:
 
 {% highlight console %}
-  $ ssh dev@fry.hashrocket -l 3000:localhost:3000
+  $ ssh fry.hashrocket -L 3000:localhost:3000
 {% endhighlight %}
 
 This drops us into a shell on `fry.local` and establishes the reverse tunnel,
