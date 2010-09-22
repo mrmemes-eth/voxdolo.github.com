@@ -26,7 +26,7 @@ requirements were:
 1. **Light Weight**: the internet connections would be of variable quality, so
    we required something that wouldn't tax small pipes.
 
-We'd previously used was iChat Screen Sharing when we needed to do this at
+We'd previously used iChat Screen Sharing when we needed to do this at
 [Hashrocket][hr]&hellip; it works great for numbers 1 and 2, gets us half way
 to number 3, but falls over entirely on number 4. The lag from sending so much
 data over the network starts out as merely grating, but quickly crescendos in
@@ -133,8 +133,8 @@ processes or utility shells.
 
 ### `tmux.conf`
 
-We're Vimtarded, so the following putting the following in `~/.tmux.conf` made
-us feel a bit more homey:
+We're Vimtarded, so putting the following in `~/.tmux.conf` made us feel a bit
+more homey:
 
 {% highlight bash %}
   setw -g mode-keys vi
@@ -184,7 +184,7 @@ In `features/support/env.rb`:
   Capybara.save_and_open_page_path = "public/tmp"
 {% endhighlight %}
 
-Awesome, now they can just brows to `http://localhost:3000/tmp` and see
+Awesome, now they can just browse to `http://localhost:3000/tmp` and see
 Capybara temp pages! That is, if they can guess the name of them, or want to
 `ls` the directory, copy the name of the last file and paste it into the
 browser.
